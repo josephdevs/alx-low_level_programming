@@ -13,7 +13,7 @@ for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 	alpha = tolower(alpha);
 	putchar(alpha);
-	putchar('\n');
 }
+putchar('\n);
 return (0);
 }
