@@ -1,13 +1,26 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- *main - prints exactly '_putchar' onto the screen.
- *Return: returns 0 on successful run
- */
+*main - prints _putchar to screen
+*Return: returns 0 if no errors
+*/
 
 int main(void)
-{
-printf("_putchar\n");
 
+{
+
+char output[9] = "_putchar";
+
+int i = 0;
+
+while (i < 9)
+
+	{
+	_putchar(output[i]);
+	i++;
+	}
+
+_putchar('\n');
 return (0);
+
 }
