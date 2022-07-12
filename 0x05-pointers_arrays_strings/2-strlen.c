@@ -3,7 +3,7 @@
 /**
  * _strlen - finds and returns the length of a string
  * @s: string '*s'
- * Return: 0
+ * Return: value of i
  */
 
 int _strlen(char *s)
@@ -12,5 +12,5 @@ int _strlen(char *s)
 
 	while (s[i])
 		i++;
-	return (0);
+	return (i);
 }
