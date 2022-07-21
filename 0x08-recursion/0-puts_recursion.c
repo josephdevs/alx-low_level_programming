@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- *_puts_recursion -   prints a string
+ *_puts_recursion -   prints a string and new line
  *@s: pointer block of memory to fill
  *Return: function has no return value (void)
  */
@@ -15,6 +16,6 @@ void _puts_recursion(char *s)
 	}
 
 	_putchar (*s);
-	puts_recursion(s + 1);
+	_puts_recursion(s + 1);
 
 }
