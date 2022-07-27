@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * _strlen - find length of a string
  * @s: string parameter
@@ -73,7 +74,6 @@ unsigned int nbr_spaces(char *s)
 char **strtow(char *str)
 {
 	int i;
-	int spaces = nbr_spaces(str);
 	char **cns = NULL;
 	char *cn;
 	int spcChkr = 0;
