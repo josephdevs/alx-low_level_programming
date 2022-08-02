@@ -3,9 +3,5 @@
 
 int main(void)
 {
-	int j = ABS(-45) * 10;
-	int i = ABS(45) * 10;
-
-	printf(__FILE__ "%d and %d \n", i, j);
-	
+	printf(__FILE__ "\n");
 }
