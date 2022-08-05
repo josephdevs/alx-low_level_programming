@@ -1,4 +1,6 @@
 #include "function_pointers.h"
+#include <stdlib.h>
+#include <stddef.h>
 
 /**
  * array_iterator - Executes function given as parameter on each lmnt of array.
